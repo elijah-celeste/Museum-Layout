@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: d869c9d2ca6736340ae02e01534925a6
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Base_c
+    100002: Bolts_c
+    100004: GearShiftBase_c
+    100006: //RootNode
+    100008: Lights_c
+    100010: Metal_c
+    100012: Nobs_Peddle_c
+    100014: ReViewMirror_c
+    100016: Seats_c
+    100018: StearingWheel_c
+    100020: TireS_c
+    400000: Base_c
+    400002: Bolts_c
+    400004: GearShiftBase_c
+    400006: //RootNode
+    400008: Lights_c
+    400010: Metal_c
+    400012: Nobs_Peddle_c
+    400014: ReViewMirror_c
+    400016: Seats_c
+    400018: StearingWheel_c
+    400020: TireS_c
+    2100000: _Base
+    2100002: Mirror
+    2100004: _Tires
+    2100006: Lights
+    2100008: Nobs_Peddles
+    2100010: _Metal
+    2100012: Bolts
+    2100014: GearShift_Holder
+    2100016: _Seats
+    2100018: Stearing_wheel
+    2300000: Base_c
+    2300002: Bolts_c
+    2300004: GearShiftBase_c
+    2300006: Lights_c
+    2300008: Metal_c
+    2300010: Nobs_Peddle_c
+    2300012: ReViewMirror_c
+    2300014: Seats_c
+    2300016: StearingWheel_c
+    2300018: TireS_c
+    3300000: Base_c
+    3300002: Bolts_c
+    3300004: GearShiftBase_c
+    3300006: Lights_c
+    3300008: Metal_c
+    3300010: Nobs_Peddle_c
+    3300012: ReViewMirror_c
+    3300014: Seats_c
+    3300016: StearingWheel_c
+    3300018: TireS_c
+    4300000: Base_c
+    4300002: ReViewMirror_c
+    4300004: TireS_c
+    4300006: Lights_c
+    4300008: Nobs_Peddle_c
+    4300010: Metal_c
+    4300012: Bolts_c
+    4300014: GearShiftBase_c
+    4300016: Seats_c
+    4300018: StearingWheel_c
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bolts
+    second: {fileID: 2100000, guid: ea931475676e2f847985fecf4b01bc56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GearShift_Holder
+    second: {fileID: 2100000, guid: dc833ac31727d824fb96ef765f5a4db3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lights
+    second: {fileID: 2100000, guid: a54b5b5b1d1e04b44ac811cc72ee9521, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mirror
+    second: {fileID: 2100000, guid: c6f0bd4b8c19b5b49a104955efe5810b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nobs_Peddles
+    second: {fileID: 2100000, guid: fb2378b592d09bd48b4af631a15f2de3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stearing_wheel
+    second: {fileID: 2100000, guid: 15c493c98d63085478125e676ba402ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Base
+    second: {fileID: 2100000, guid: b670dfd235e00c444b3f8aeb72a82477, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Metal
+    second: {fileID: 2100000, guid: 99e00ac44f9c34340a4467173400cf76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Seats
+    second: {fileID: 2100000, guid: cd70e8337bed20f4bb2506ea9260be9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Tires
+    second: {fileID: 2100000, guid: 67ae7bfc1052a2344b44af6c0de19523, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

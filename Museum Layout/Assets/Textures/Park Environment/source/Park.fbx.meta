@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 67336d3ee121a074f8eb316a76ea17d0
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BackGroundTrees
+    100002: group1
+    100004: group10
+    100006: group2
+    100008: group3
+    100010: group5
+    100012: group6
+    100014: group8
+    100016: group9
+    100018: Lights
+    100020: Lights 1
+    100022: oakForest2Main
+    100024: oakForest2Main1
+    100026: oakForest2Main2
+    100028: oakForest2Main3
+    100030: oakForest3Main
+    100032: oakForest3Main1
+    100034: oakForest3Main2
+    100036: oakForest3Main3
+    100038: oakForest3Main4
+    100040: oakForest3Main5
+    100042: oakWhiteMedium1Leaf
+    100044: oakWhiteMedium1Leaf 1
+    100046: oakWhiteMedium1Leaf 2
+    100048: oakWhiteMedium1Main
+    100050: oakWhiteMedium1Main 1
+    100052: oakWhiteMedium1Main 2
+    100054: oakWhiteMedium2Leaf1
+    100056: oakWhiteMedium2Main1
+    100058: oakWhiteMedium3Leaf
+    100060: oakWhiteMedium3Leaf 1
+    100062: oakWhiteMedium3Leaf 2
+    100064: oakWhiteMedium3Leaf1
+    100066: oakWhiteMedium3Main
+    100068: oakWhiteMedium3Main 1
+    100070: oakWhiteMedium3Main 2
+    100072: oakWhiteMedium3Main1
+    100074: oakWhiteMedium4Leaf
+    100076: oakWhiteMedium4Leaf 1
+    100078: oakWhiteMedium4Main
+    100080: oakWhiteMedium4Main 1
+    100082: oakWhiteMedium5Leaf
+    100084: oakWhiteMedium5Leaf 1
+    100086: oakWhiteMedium5Leaf1
+    100088: oakWhiteMedium5Leaf2
+    100090: oakWhiteMedium5Main
+    100092: oakWhiteMedium5Main 1
+    100094: oakWhiteMedium5Main1
+    100096: oakWhiteMedium5Main2
+    100098: oakWhiteMedium7Leaf
+    100100: oakWhiteMedium7Leaf 1
+    100102: oakWhiteMedium7Leaf2
+    100104: oakWhiteMedium7Main
+    100106: oakWhiteMedium7Main 1
+    100108: oakWhiteMedium7Main2
+    100110: //RootNode
+    100112: pCube28
+    100114: pCube29
+    100116: pCube30
+    100118: pCube31
+    100120: pCube32
+    100122: pCube33
+    100124: pCylinder114
+    100126: pCylinder115
+    100128: pCylinder116
+    100130: pCylinder117
+    100132: pCylinder118
+    100134: pCylinder119
+    100136: pCylinder120
+    100138: pCylinder121
+    100140: pCylinder122
+    100142: pCylinder123
+    100144: pCylinder124
+    100146: pCylinder125
+    100148: pCylinder126
+    100150: pCylinder127
+    100152: pCylinder128
+    100154: pCylinder129
+    100156: pCylinder130
+    100158: pCylinder96
+    100160: pCylinder97
+    100162: pCylinder98
+    100164: Poles
+    100166: pPlane3
+    100168: pPlane4
+    100170: pPlane6
+    100172: Tree
+    100174: Tree1
+    100176: Tree1 1
+    100178: Tree12
+    100180: Tree13
+    100182: Tree14
+    100184: Tree15
+    100186: Tree16
+    100188: Tree17
+    100190: Tree18
+    100192: Tree19
+    100194: Tree2
+    100196: Tree2 1
+    100198: Tree20
+    100200: Tree21
+    100202: Tree22
+    100204: Tree3
+    100206: Tree3 1
+    100208: Tree4
+    100210: treeLeafy2Leaf
+    100212: treeLeafy2Leaf 1
+    100214: treeLeafy2Leaf 2
+    100216: treeLeafy2Main
+    100218: treeLeafy2Main 1
+    100220: treeLeafy2Main 2
+    100222: treeLeafy3Leaf
+    100224: treeLeafy3Main
+    100226: treeLeafy4Leaf
+    100228: treeLeafy4Leaf 1
+    100230: treeLeafy4Leaf 2
+    100232: treeLeafy4Leaf 3
+    100234: treeLeafy4Main
+    100236: treeLeafy4Main 1
+    100238: treeLeafy4Main 2
+    100240: treeLeafy4Main 3
+    100242: Trees
+    100244: WithTrench2
+    400000: BackGroundTrees
+    400002: group1
+    400004: group10
+    400006: group2
+    400008: group3
+    400010: group5
+    400012: group6
+    400014: group8
+    400016: group9
+    400018: Lights
+    400020: Lights 1
+    400022: oakForest2Main
+    400024: oakForest2Main1
+    400026: oakForest2Main2
+    400028: oakForest2Main3
+    400030: oakForest3Main
+    400032: oakForest3Main1
+    400034: oakForest3Main2
+    400036: oakForest3Main3
+    400038: oakForest3Main4
+    400040: oakForest3Main5
+    400042: oakWhiteMedium1Leaf
+    400044: oakWhiteMedium1Leaf 1
+    400046: oakWhiteMedium1Leaf 2
+    400048: oakWhiteMedium1Main
+    400050: oakWhiteMedium1Main 1
+    400052: oakWhiteMedium1Main 2
+    400054: oakWhiteMedium2Leaf1
+    400056: oakWhiteMedium2Main1
+    400058: oakWhiteMedium3Leaf
+    400060: oakWhiteMedium3Leaf 1
+    400062: oakWhiteMedium3Leaf 2
+    400064: oakWhiteMedium3Leaf1
+    400066: oakWhiteMedium3Main
+    400068: oakWhiteMedium3Main 1
+    400070: oakWhiteMedium3Main 2
+    400072: oakWhiteMedium3Main1
+    400074: oakWhiteMedium4Leaf
+    400076: oakWhiteMedium4Leaf 1
+    400078: oakWhiteMedium4Main
+    400080: oakWhiteMedium4Main 1
+    400082: oakWhiteMedium5Leaf
+    400084: oakWhiteMedium5Leaf 1
+    400086: oakWhiteMedium5Leaf1
+    400088: oakWhiteMedium5Leaf2
+    400090: oakWhiteMedium5Main
+    400092: oakWhiteMedium5Main 1
+    400094: oakWhiteMedium5Main1
+    400096: oakWhiteMedium5Main2
+    400098: oakWhiteMedium7Leaf
+    400100: oakWhiteMedium7Leaf 1
+    400102: oakWhiteMedium7Leaf2
+    400104: oakWhiteMedium7Main
+    400106: oakWhiteMedium7Main 1
+    400108: oakWhiteMedium7Main2
+    400110: //RootNode
+    400112: pCube28
+    400114: pCube29
+    400116: pCube30
+    400118: pCube31
+    400120: pCube32
+    400122: pCube33
+    400124: pCylinder114
+    400126: pCylinder115
+    400128: pCylinder116
+    400130: pCylinder117
+    400132: pCylinder118
+    400134: pCylinder119
+    400136: pCylinder120
+    400138: pCylinder121
+    400140: pCylinder122
+    400142: pCylinder123
+    400144: pCylinder124
+    400146: pCylinder125
+    400148: pCylinder126
+    400150: pCylinder127
+    400152: pCylinder128
+    400154: pCylinder129
+    400156: pCylinder130
+    400158: pCylinder96
+    400160: pCylinder97
+    400162: pCylinder98
+    400164: Poles
+    400166: pPlane3
+    400168: pPlane4
+    400170: pPlane6
+    400172: Tree
+    400174: Tree1
+    400176: Tree1 1
+    400178: Tree12
+    400180: Tree13
+    400182: Tree14
+    400184: Tree15
+    400186: Tree16
+    400188: Tree17
+    400190: Tree18
+    400192: Tree19
+    400194: Tree2
+    400196: Tree2 1
+    400198: Tree20
+    400200: Tree21
+    400202: Tree22
+    400204: Tree3
+    400206: Tree3 1
+    400208: Tree4
+    400210: treeLeafy2Leaf
+    400212: treeLeafy2Leaf 1
+    400214: treeLeafy2Leaf 2
+    400216: treeLeafy2Main
+    400218: treeLeafy2Main 1
+    400220: treeLeafy2Main 2
+    400222: treeLeafy3Leaf
+    400224: treeLeafy3Main
+    400226: treeLeafy4Leaf
+    400228: treeLeafy4Leaf 1
+    400230: treeLeafy4Leaf 2
+    400232: treeLeafy4Leaf 3
+    400234: treeLeafy4Main
+    400236: treeLeafy4Main 1
+    400238: treeLeafy4Main 2
+    400240: treeLeafy4Main 3
+    400242: Trees
+    400244: WithTrench2
+    2100000: Cement
+    2100002: Grass
+    2100004: lambert1
+    2100006: Bark2
+    2100008: Leafs2
+    2100010: Leafs1
+    2100012: Bark
+    2100014: BackGroundTress
+    2300000: oakForest2Main
+    2300002: oakForest2Main1
+    2300004: oakForest2Main2
+    2300006: oakForest2Main3
+    2300008: oakForest3Main
+    2300010: oakForest3Main1
+    2300012: oakForest3Main2
+    2300014: oakForest3Main3
+    2300016: oakForest3Main4
+    2300018: oakForest3Main5
+    2300020: oakWhiteMedium1Leaf
+    2300022: oakWhiteMedium1Leaf 1
+    2300024: oakWhiteMedium1Leaf 2
+    2300026: oakWhiteMedium1Main
+    2300028: oakWhiteMedium1Main 1
+    2300030: oakWhiteMedium1Main 2
+    2300032: oakWhiteMedium2Leaf1
+    2300034: oakWhiteMedium2Main1
+    2300036: oakWhiteMedium3Leaf
+    2300038: oakWhiteMedium3Leaf 1
+    2300040: oakWhiteMedium3Leaf 2
+    2300042: oakWhiteMedium3Leaf1
+    2300044: oakWhiteMedium3Main
+    2300046: oakWhiteMedium3Main 1
+    2300048: oakWhiteMedium3Main 2
+    2300050: oakWhiteMedium3Main1
+    2300052: oakWhiteMedium4Leaf
+    2300054: oakWhiteMedium4Leaf 1
+    2300056: oakWhiteMedium4Main
+    2300058: oakWhiteMedium4Main 1
+    2300060: oakWhiteMedium5Leaf
+    2300062: oakWhiteMedium5Leaf 1
+    2300064: oakWhiteMedium5Leaf1
+    2300066: oakWhiteMedium5Leaf2
+    2300068: oakWhiteMedium5Main
+    2300070: oakWhiteMedium5Main 1
+    2300072: oakWhiteMedium5Main1
+    2300074: oakWhiteMedium5Main2
+    2300076: oakWhiteMedium7Leaf
+    2300078: oakWhiteMedium7Leaf 1
+    2300080: oakWhiteMedium7Leaf2
+    2300082: oakWhiteMedium7Main
+    2300084: oakWhiteMedium7Main 1
+    2300086: oakWhiteMedium7Main2
+    2300088: pCube28
+    2300090: pCube29
+    2300092: pCube30
+    2300094: pCube31
+    2300096: pCube32
+    2300098: pCube33
+    2300100: pCylinder114
+    2300102: pCylinder115
+    2300104: pCylinder116
+    2300106: pCylinder117
+    2300108: pCylinder118
+    2300110: pCylinder119
+    2300112: pCylinder120
+    2300114: pCylinder121
+    2300116: pCylinder122
+    2300118: pCylinder123
+    2300120: pCylinder124
+    2300122: pCylinder125
+    2300124: pCylinder126
+    2300126: pCylinder127
+    2300128: pCylinder128
+    2300130: pCylinder129
+    2300132: pCylinder130
+    2300134: pCylinder96
+    2300136: pCylinder97
+    2300138: pCylinder98
+    2300140: pPlane3
+    2300142: pPlane4
+    2300144: pPlane6
+    2300146: treeLeafy2Leaf
+    2300148: treeLeafy2Leaf 1
+    2300150: treeLeafy2Leaf 2
+    2300152: treeLeafy2Main
+    2300154: treeLeafy2Main 1
+    2300156: treeLeafy2Main 2
+    2300158: treeLeafy3Leaf
+    2300160: treeLeafy3Main
+    2300162: treeLeafy4Leaf
+    2300164: treeLeafy4Leaf 1
+    2300166: treeLeafy4Leaf 2
+    2300168: treeLeafy4Leaf 3
+    2300170: treeLeafy4Main
+    2300172: treeLeafy4Main 1
+    2300174: treeLeafy4Main 2
+    2300176: treeLeafy4Main 3
+    2300178: WithTrench2
+    3300000: oakForest2Main
+    3300002: oakForest2Main1
+    3300004: oakForest2Main2
+    3300006: oakForest2Main3
+    3300008: oakForest3Main
+    3300010: oakForest3Main1
+    3300012: oakForest3Main2
+    3300014: oakForest3Main3
+    3300016: oakForest3Main4
+    3300018: oakForest3Main5
+    3300020: oakWhiteMedium1Leaf
+    3300022: oakWhiteMedium1Leaf 1
+    3300024: oakWhiteMedium1Leaf 2
+    3300026: oakWhiteMedium1Main
+    3300028: oakWhiteMedium1Main 1
+    3300030: oakWhiteMedium1Main 2
+    3300032: oakWhiteMedium2Leaf1
+    3300034: oakWhiteMedium2Main1
+    3300036: oakWhiteMedium3Leaf
+    3300038: oakWhiteMedium3Leaf 1
+    3300040: oakWhiteMedium3Leaf 2
+    3300042: oakWhiteMedium3Leaf1
+    3300044: oakWhiteMedium3Main
+    3300046: oakWhiteMedium3Main 1
+    3300048: oakWhiteMedium3Main 2
+    3300050: oakWhiteMedium3Main1
+    3300052: oakWhiteMedium4Leaf
+    3300054: oakWhiteMedium4Leaf 1
+    3300056: oakWhiteMedium4Main
+    3300058: oakWhiteMedium4Main 1
+    3300060: oakWhiteMedium5Leaf
+    3300062: oakWhiteMedium5Leaf 1
+    3300064: oakWhiteMedium5Leaf1
+    3300066: oakWhiteMedium5Leaf2
+    3300068: oakWhiteMedium5Main
+    3300070: oakWhiteMedium5Main 1
+    3300072: oakWhiteMedium5Main1
+    3300074: oakWhiteMedium5Main2
+    3300076: oakWhiteMedium7Leaf
+    3300078: oakWhiteMedium7Leaf 1
+    3300080: oakWhiteMedium7Leaf2
+    3300082: oakWhiteMedium7Main
+    3300084: oakWhiteMedium7Main 1
+    3300086: oakWhiteMedium7Main2
+    3300088: pCube28
+    3300090: pCube29
+    3300092: pCube30
+    3300094: pCube31
+    3300096: pCube32
+    3300098: pCube33
+    3300100: pCylinder114
+    3300102: pCylinder115
+    3300104: pCylinder116
+    3300106: pCylinder117
+    3300108: pCylinder118
+    3300110: pCylinder119
+    3300112: pCylinder120
+    3300114: pCylinder121
+    3300116: pCylinder122
+    3300118: pCylinder123
+    3300120: pCylinder124
+    3300122: pCylinder125
+    3300124: pCylinder126
+    3300126: pCylinder127
+    3300128: pCylinder128
+    3300130: pCylinder129
+    3300132: pCylinder130
+    3300134: pCylinder96
+    3300136: pCylinder97
+    3300138: pCylinder98
+    3300140: pPlane3
+    3300142: pPlane4
+    3300144: pPlane6
+    3300146: treeLeafy2Leaf
+    3300148: treeLeafy2Leaf 1
+    3300150: treeLeafy2Leaf 2
+    3300152: treeLeafy2Main
+    3300154: treeLeafy2Main 1
+    3300156: treeLeafy2Main 2
+    3300158: treeLeafy3Leaf
+    3300160: treeLeafy3Main
+    3300162: treeLeafy4Leaf
+    3300164: treeLeafy4Leaf 1
+    3300166: treeLeafy4Leaf 2
+    3300168: treeLeafy4Leaf 3
+    3300170: treeLeafy4Main
+    3300172: treeLeafy4Main 1
+    3300174: treeLeafy4Main 2
+    3300176: treeLeafy4Main 3
+    3300178: WithTrench2
+    4300000: pPlane3
+    4300002: pPlane4
+    4300004: pPlane6
+    4300006: WithTrench2
+    4300008: pCylinder98
+    4300010: pCylinder114
+    4300012: pCylinder115
+    4300014: pCylinder116
+    4300016: pCylinder117
+    4300018: pCylinder118
+    4300020: pCylinder119
+    4300022: pCylinder120
+    4300024: pCylinder121
+    4300026: pCylinder122
+    4300028: pCylinder123
+    4300030: pCylinder124
+    4300032: pCylinder125
+    4300034: pCylinder126
+    4300036: pCylinder127
+    4300038: pCylinder128
+    4300040: pCylinder129
+    4300042: pCylinder130
+    4300044: pCylinder97
+    4300046: pCylinder96
+    4300048: pCube30
+    4300050: pCube29
+    4300052: pCube28
+    4300054: pCube33
+    4300056: pCube32
+    4300058: pCube31
+    4300060: treeLeafy2Main
+    4300062: treeLeafy2Leaf
+    4300064: treeLeafy3Main
+    4300066: treeLeafy3Leaf
+    4300068: treeLeafy4Main
+    4300070: treeLeafy4Leaf
+    4300072: treeLeafy4Main
+    4300074: treeLeafy4Leaf
+    4300076: treeLeafy4Main
+    4300078: treeLeafy4Leaf
+    4300080: treeLeafy4Main
+    4300082: treeLeafy4Leaf
+    4300084: treeLeafy2Main
+    4300086: treeLeafy2Leaf
+    4300088: treeLeafy2Main
+    4300090: treeLeafy2Leaf
+    4300092: oakWhiteMedium5Leaf1
+    4300094: oakWhiteMedium5Main1
+    4300096: oakWhiteMedium1Leaf
+    4300098: oakWhiteMedium1Main
+    4300100: oakWhiteMedium2Leaf1
+    4300102: oakWhiteMedium2Main1
+    4300104: oakWhiteMedium5Leaf2
+    4300106: oakWhiteMedium5Main2
+    4300108: oakWhiteMedium7Leaf2
+    4300110: oakWhiteMedium7Main2
+    4300112: oakWhiteMedium3Leaf1
+    4300114: oakWhiteMedium3Main1
+    4300116: oakWhiteMedium1Main
+    4300118: oakWhiteMedium1Leaf
+    4300120: oakWhiteMedium7Main
+    4300122: oakWhiteMedium7Leaf
+    4300124: oakWhiteMedium5Main
+    4300126: oakWhiteMedium5Leaf
+    4300128: oakWhiteMedium3Main
+    4300130: oakWhiteMedium3Leaf
+    4300132: oakWhiteMedium3Main
+    4300134: oakWhiteMedium3Leaf
+    4300136: oakWhiteMedium3Main
+    4300138: oakWhiteMedium3Leaf
+    4300140: oakWhiteMedium7Main
+    4300142: oakWhiteMedium7Leaf
+    4300144: oakWhiteMedium4Main
+    4300146: oakWhiteMedium4Leaf
+    4300148: oakWhiteMedium4Main
+    4300150: oakWhiteMedium4Leaf
+    4300152: oakWhiteMedium1Main
+    4300154: oakWhiteMedium1Leaf
+    4300156: oakWhiteMedium5Main
+    4300158: oakWhiteMedium5Leaf
+    4300160: oakForest3Main1
+    4300162: oakForest2Main1
+    4300164: oakForest3Main2
+    4300166: oakForest3Main3
+    4300168: oakForest2Main2
+    4300170: oakForest3Main4
+    4300172: oakForest2Main3
+    4300174: oakForest3Main5
+    4300176: oakForest2Main
+    4300178: oakForest3Main
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BackGroundTress
+    second: {fileID: 2100000, guid: 72e2cc128d2427248a1af33e2719f93b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bark
+    second: {fileID: 2100000, guid: 5a4a58b4bb6eb6d4d9971c84dcf2d4d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bark2
+    second: {fileID: 2100000, guid: a98449b8da8be8540b92434b1417d387, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cement
+    second: {fileID: 2100000, guid: 2bcb00576bc903e4399b3acb37117745, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass
+    second: {fileID: 2100000, guid: 689b6fa73fee19e45a3b735daf2b97c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leafs1
+    second: {fileID: 2100000, guid: c09b7c565a757f04da65ae48684bb9fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leafs2
+    second: {fileID: 2100000, guid: 22e8721ef215ed54db7470e3cdeaacb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 35adbe326c4edcd47aaf8ad6eb8edacb, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

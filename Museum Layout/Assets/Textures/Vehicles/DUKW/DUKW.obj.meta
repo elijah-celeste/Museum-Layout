@@ -1,0 +1,287 @@
+fileFormatVersion: 2
+guid: 8be5d1a9cab48174596ff5113a86e0e4
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: axleFL
+    100002: axleFR
+    100004: axleRear
+    100006: drive
+    100008: //RootNode
+    100010: hull
+    100012: propeller
+    100014: rudder
+    100016: seatbackL
+    100018: seatbackR
+    100020: steeringwheel
+    100022: surfboard
+    100024: surfboardsuppor
+    100026: wheelFL
+    100028: wheelFR
+    100030: wheelrear1
+    100032: wheelrear2
+    100034: wiperL
+    100036: wiperR
+    400000: axleFL
+    400002: axleFR
+    400004: axleRear
+    400006: drive
+    400008: //RootNode
+    400010: hull
+    400012: propeller
+    400014: rudder
+    400016: seatbackL
+    400018: seatbackR
+    400020: steeringwheel
+    400022: surfboard
+    400024: surfboardsuppor
+    400026: wheelFL
+    400028: wheelFR
+    400030: wheelrear1
+    400032: wheelrear2
+    400034: wiperL
+    400036: wiperR
+    2100000: axleFLMat
+    2100002: axleFRMat
+    2100004: axleRearMat
+    2100006: driveMat
+    2100008: hullMat
+    2100010: propellerMat
+    2100012: rudderMat
+    2100014: seatbackLMat
+    2100016: seatbackRMat
+    2100018: steeringwheelMat
+    2100020: surfboardMat
+    2100022: surfboardsupporMat
+    2100024: wheelFLMat
+    2100026: wheelFRMat
+    2100028: wheelrear1Mat
+    2100030: wheelrear2Mat
+    2100032: wiperLMat
+    2100034: wiperRMat
+    2300000: axleFL
+    2300002: axleFR
+    2300004: axleRear
+    2300006: drive
+    2300008: hull
+    2300010: propeller
+    2300012: rudder
+    2300014: seatbackL
+    2300016: seatbackR
+    2300018: steeringwheel
+    2300020: surfboard
+    2300022: surfboardsuppor
+    2300024: wheelFL
+    2300026: wheelFR
+    2300028: wheelrear1
+    2300030: wheelrear2
+    2300032: wiperL
+    2300034: wiperR
+    3300000: axleFL
+    3300002: axleFR
+    3300004: axleRear
+    3300006: drive
+    3300008: hull
+    3300010: propeller
+    3300012: rudder
+    3300014: seatbackL
+    3300016: seatbackR
+    3300018: steeringwheel
+    3300020: surfboard
+    3300022: surfboardsuppor
+    3300024: wheelFL
+    3300026: wheelFR
+    3300028: wheelrear1
+    3300030: wheelrear2
+    3300032: wiperL
+    3300034: wiperR
+    4300000: axleFL
+    4300002: axleFR
+    4300004: axleRear
+    4300006: drive
+    4300008: hull
+    4300010: propeller
+    4300012: rudder
+    4300014: seatbackL
+    4300016: seatbackR
+    4300018: steeringwheel
+    4300020: surfboard
+    4300022: surfboardsuppor
+    4300024: wheelFL
+    4300026: wheelFR
+    4300028: wheelrear1
+    4300030: wheelrear2
+    4300032: wiperL
+    4300034: wiperR
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: axleFLMat
+    second: {fileID: 2100000, guid: 010ac8fcd7892d54a8afd1972b6ee29a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: axleFRMat
+    second: {fileID: 2100000, guid: 015197d2d3d95f842b543385c2c696c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: axleRearMat
+    second: {fileID: 2100000, guid: 1d1c176de3dbcae4db6af4de4b44e7b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: driveMat
+    second: {fileID: 2100000, guid: 77eccf09450b56e44b8cb6c863e8accf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hullMat
+    second: {fileID: 2100000, guid: cb5e32c8830b6884085ffd6580587bf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: propellerMat
+    second: {fileID: 2100000, guid: 96d31b26b48ea9749be4fffe9acf0b08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rudderMat
+    second: {fileID: 2100000, guid: 645502b9a5225294f8f8d742c96d7313, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seatbackLMat
+    second: {fileID: 2100000, guid: 5c8ee6a8dd60883449be52e46a472983, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seatbackRMat
+    second: {fileID: 2100000, guid: 667db15fba0504f4193c3858aaa553dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steeringwheelMat
+    second: {fileID: 2100000, guid: c0a27ee467fc52d4396d259bd733c03a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: surfboardMat
+    second: {fileID: 2100000, guid: 6f57416e3dd672449bb9e8e330328661, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: surfboardsupporMat
+    second: {fileID: 2100000, guid: f856f2702db66374cb37c7ac4bbc4603, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheelFLMat
+    second: {fileID: 2100000, guid: f9e130e479f57884283acf44b4739913, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheelFRMat
+    second: {fileID: 2100000, guid: 386e7bd339de7ac48a911ff3348dbaba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheelrear1Mat
+    second: {fileID: 2100000, guid: dcf6a175cb238e74b8d51438d0989db5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheelrear2Mat
+    second: {fileID: 2100000, guid: 0c8a29f74a685fc4780682fd931117a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wiperLMat
+    second: {fileID: 2100000, guid: c464a7676e273984b8be9dd4a9a5e0e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wiperRMat
+    second: {fileID: 2100000, guid: 8aaa4a75bd3ee8f42aa35c58e2e1143a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

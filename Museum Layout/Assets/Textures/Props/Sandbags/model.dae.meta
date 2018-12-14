@@ -1,0 +1,329 @@
+fileFormatVersion: 2
+guid: f4ce0da8b10177a4da5e981614893328
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: SandBag
+    100004: SandBag 1
+    100006: SandBag 2
+    100008: SandBag10
+    100010: SandBag10 1
+    100012: SandBag10 2
+    100014: SandBag11
+    100016: SandBag11 1
+    100018: SandBag11 2
+    100020: SandBag12
+    100022: SandBag12 1
+    100024: SandBag12 2
+    100026: SandBag13
+    100028: SandBag14
+    100030: SandBag15
+    100032: SandBag16
+    100034: SandBag17
+    100036: SandBag18
+    100038: SandBag2
+    100040: SandBag2 1
+    100042: SandBag2 2
+    100044: SandBag21
+    100046: SandBag22
+    100048: SandBag23
+    100050: SandBag24
+    100052: SandBag3
+    100054: SandBag3 1
+    100056: SandBag3 2
+    100058: SandBag30
+    100060: SandBag31
+    100062: SandBag33
+    100064: SandBag34
+    100066: SandBag4
+    100068: SandBag4 1
+    100070: SandBag5
+    100072: SandBag6
+    100074: SandBag6 1
+    100076: SandBag6 2
+    100078: SandBag7
+    100080: SandBag7 1
+    100082: SandBag7 2
+    100084: SandBag8
+    100086: SandBag8 1
+    100088: SandBag8 2
+    100090: SandBag9
+    100092: SandBag9 1
+    100094: SandBag9 2
+    400000: //RootNode
+    400002: SandBag
+    400004: SandBag 1
+    400006: SandBag 2
+    400008: SandBag10
+    400010: SandBag10 1
+    400012: SandBag10 2
+    400014: SandBag11
+    400016: SandBag11 1
+    400018: SandBag11 2
+    400020: SandBag12
+    400022: SandBag12 1
+    400024: SandBag12 2
+    400026: SandBag13
+    400028: SandBag14
+    400030: SandBag15
+    400032: SandBag16
+    400034: SandBag17
+    400036: SandBag18
+    400038: SandBag2
+    400040: SandBag2 1
+    400042: SandBag2 2
+    400044: SandBag21
+    400046: SandBag22
+    400048: SandBag23
+    400050: SandBag24
+    400052: SandBag3
+    400054: SandBag3 1
+    400056: SandBag3 2
+    400058: SandBag30
+    400060: SandBag31
+    400062: SandBag33
+    400064: SandBag34
+    400066: SandBag4
+    400068: SandBag4 1
+    400070: SandBag5
+    400072: SandBag6
+    400074: SandBag6 1
+    400076: SandBag6 2
+    400078: SandBag7
+    400080: SandBag7 1
+    400082: SandBag7 2
+    400084: SandBag8
+    400086: SandBag8 1
+    400088: SandBag8 2
+    400090: SandBag9
+    400092: SandBag9 1
+    400094: SandBag9 2
+    2100000: SandBagmat
+    2300000: SandBag
+    2300002: SandBag 1
+    2300004: SandBag 2
+    2300006: SandBag10
+    2300008: SandBag10 1
+    2300010: SandBag10 2
+    2300012: SandBag11
+    2300014: SandBag11 1
+    2300016: SandBag11 2
+    2300018: SandBag12
+    2300020: SandBag12 1
+    2300022: SandBag12 2
+    2300024: SandBag13
+    2300026: SandBag14
+    2300028: SandBag15
+    2300030: SandBag16
+    2300032: SandBag17
+    2300034: SandBag18
+    2300036: SandBag2
+    2300038: SandBag2 1
+    2300040: SandBag2 2
+    2300042: SandBag21
+    2300044: SandBag22
+    2300046: SandBag23
+    2300048: SandBag24
+    2300050: SandBag3
+    2300052: SandBag3 1
+    2300054: SandBag3 2
+    2300056: SandBag30
+    2300058: SandBag31
+    2300060: SandBag33
+    2300062: SandBag34
+    2300064: SandBag4
+    2300066: SandBag4 1
+    2300068: SandBag5
+    2300070: SandBag6
+    2300072: SandBag6 1
+    2300074: SandBag6 2
+    2300076: SandBag7
+    2300078: SandBag7 1
+    2300080: SandBag7 2
+    2300082: SandBag8
+    2300084: SandBag8 1
+    2300086: SandBag8 2
+    2300088: SandBag9
+    2300090: SandBag9 1
+    2300092: SandBag9 2
+    3300000: SandBag
+    3300002: SandBag 1
+    3300004: SandBag 2
+    3300006: SandBag10
+    3300008: SandBag10 1
+    3300010: SandBag10 2
+    3300012: SandBag11
+    3300014: SandBag11 1
+    3300016: SandBag11 2
+    3300018: SandBag12
+    3300020: SandBag12 1
+    3300022: SandBag12 2
+    3300024: SandBag13
+    3300026: SandBag14
+    3300028: SandBag15
+    3300030: SandBag16
+    3300032: SandBag17
+    3300034: SandBag18
+    3300036: SandBag2
+    3300038: SandBag2 1
+    3300040: SandBag2 2
+    3300042: SandBag21
+    3300044: SandBag22
+    3300046: SandBag23
+    3300048: SandBag24
+    3300050: SandBag3
+    3300052: SandBag3 1
+    3300054: SandBag3 2
+    3300056: SandBag30
+    3300058: SandBag31
+    3300060: SandBag33
+    3300062: SandBag34
+    3300064: SandBag4
+    3300066: SandBag4 1
+    3300068: SandBag5
+    3300070: SandBag6
+    3300072: SandBag6 1
+    3300074: SandBag6 2
+    3300076: SandBag7
+    3300078: SandBag7 1
+    3300080: SandBag7 2
+    3300082: SandBag8
+    3300084: SandBag8 1
+    3300086: SandBag8 2
+    3300088: SandBag9
+    3300090: SandBag9 1
+    3300092: SandBag9 2
+    4300000: SandBag
+    4300002: SandBag2
+    4300004: SandBag12
+    4300006: SandBag11
+    4300008: SandBag8
+    4300010: SandBag7
+    4300012: SandBag10
+    4300014: SandBag9
+    4300016: SandBag6
+    4300018: SandBag3
+    4300020: SandBag4
+    4300022: SandBag34
+    4300024: SandBag18
+    4300026: SandBag17
+    4300028: SandBag16
+    4300030: SandBag15
+    4300032: SandBag14
+    4300034: SandBag13
+    4300036: SandBag22
+    4300038: SandBag23
+    4300040: SandBag21
+    4300042: SandBag24
+    4300044: SandBag
+    4300046: SandBag2
+    4300048: SandBag12
+    4300050: SandBag11
+    4300052: SandBag8
+    4300054: SandBag7
+    4300056: SandBag10
+    4300058: SandBag9
+    4300060: SandBag6
+    4300062: SandBag3
+    4300064: SandBag4
+    4300066: SandBag30
+    4300068: SandBag
+    4300070: SandBag2
+    4300072: SandBag12
+    4300074: SandBag11
+    4300076: SandBag8
+    4300078: SandBag7
+    4300080: SandBag10
+    4300082: SandBag9
+    4300084: SandBag6
+    4300086: SandBag3
+    4300088: SandBag31
+    4300090: SandBag33
+    4300092: SandBag5
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SandBagmat
+    second: {fileID: 2100000, guid: 69d31bfc13a05804c95eb32cee06d124, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

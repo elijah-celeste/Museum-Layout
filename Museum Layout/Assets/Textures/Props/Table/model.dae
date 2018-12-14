@@ -1,0 +1,715 @@
+<?xml version="1.0"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Assimp</author>
+      <authoring_tool>Assimp Exporter</authoring_tool>
+    </contributor>
+    <created>2018-12-07T09:54:27</created>
+    <modified>2018-12-07T09:54:27</modified>
+    <unit name="meter" meter="0.01" />
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="lambert1-fx" name="lambert1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">0.5   0.5   0.5   1</color>
+            </diffuse>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="meshId0" name="meshId0_name" >
+      <mesh>
+        <source id="meshId0-positions" name="meshId0-positions">
+          <float_array id="meshId0-positions-array" count="72"> -1 0.258697 0.296011 -0.917807 0.258697 0.296011 -0.917807 0.305519 0.296011 -1 0.305519 0.296011 -1 0.305519 0.296011 -0.917807 0.305519 0.296011 -0.917807 0.305519 -0.293258 -1 0.305519 -0.293258 -1 0.305519 -0.293258 -0.917807 0.305519 -0.293258 -0.917807 0.258697 -0.293258 -1 0.258697 -0.293258 -1 0.258697 -0.293258 -0.917807 0.258697 -0.293258 -0.917807 0.258697 0.296011 -1 0.258697 0.296011 -0.917807 0.258697 0.296011 -0.917807 0.258697 -0.293258 -0.917807 0.305519 -0.293258 -0.917807 0.305519 0.296011 -1 0.258697 -0.293258 -1 0.258697 0.296011 -1 0.305519 0.296011 -1 0.305519 -0.293258 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId0-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId0-normals" name="meshId0-normals">
+          <float_array id="meshId0-normals-array" count="72"> 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId0-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId0-tangents" name="meshId0-tangents">
+          <float_array id="meshId0-tangents-array" count="72"> 0.223288 0.974752 0 0.223288 0.974752 0 0.223288 0.974752 0 0.223288 0.974752 0 0.974753 0 0.223288 0.974753 0 0.223288 0.974752 0 0.223288 0.974752 0 0.223288 -0.223287 0.974753 0 -0.223288 0.974752 0 -0.223289 0.974752 0 -0.223288 0.974753 0 -0.974752 0 0.223288 -0.974752 0 0.223288 -0.974753 0 0.223288 -0.974753 0 0.223288 0 0.974752 -0.223288 0 0.974752 -0.223289 0 0.974752 -0.223289 0 0.974753 -0.223288 0 0.974753 0.223287 0 0.974753 0.223288 0 0.974752 0.223288 0 0.974753 0.223287 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId0-tangents-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId0-bitangents" name="meshId0-bitangents">
+          <float_array id="meshId0-bitangents-array" count="72"> -0.974752 0.223288 0 -0.974752 0.223288 0 -0.974752 0.223288 0 -0.974752 0.223288 0 0.223288 0 -0.974753 0.223288 0 -0.974753 0.223288 0 -0.974752 0.223288 0 -0.974752 0.974753 0.223287 0 0.974752 0.223288 0 0.974752 0.223289 0 0.974753 0.223288 0 -0.223288 -0 -0.974752 -0.223288 -0 -0.974752 -0.223288 -0 -0.974753 -0.223288 -0 -0.974753 -0 0.223288 0.974752 -0 0.223289 0.974752 -0 0.223289 0.974752 -0 0.223288 0.974753 0 0.223287 -0.974753 0 0.223288 -0.974753 0 0.223288 -0.974752 0 0.223287 -0.974753 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId0-bitangents-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId0-tex0" name="meshId0-tex0">
+          <float_array id="meshId0-tex0-array" count="48"> 0.128747 0.398057 0.139909 0.349332 0.167666 0.35569 0.156505 0.404416 0.156505 0.404416 0.20523 0.415577 0.125209 0.764909 0.0764828 0.753747 0.0764828 0.753747 0.0653212 0.802473 0.0375641 0.796115 0.0487257 0.747389 0.0487257 0.747389 0 0.736227 0.0800217 0.386896 0.128747 0.398057 0.139909 0.349332 0.219931 0 0.247688 0.00635839 0.167666 0.35569 0.0487257 0.747389 0.128747 0.398057 0.156505 0.404416 0.0764828 0.753747 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId0-tex0-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="meshId0-vertices">
+          <input semantic="POSITION" source="#meshId0-positions" />
+        </vertices>
+        <polylist count="12" material="defaultMaterial">
+          <input offset="0" semantic="VERTEX" source="#meshId0-vertices" />
+          <input offset="0" semantic="NORMAL" source="#meshId0-normals" />
+          <input offset="0" semantic="TANGENT" source="#meshId0-tangents" />
+          <input offset="0" semantic="BINORMAL" source="#meshId0-bitangents" />
+          <input offset="0" semantic="TEXCOORD" source="#meshId0-tex0" set="0" />
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>3 0 1 1 2 3 7 4 5 5 6 7 11 8 9 9 10 11 15 12 13 13 14 15 19 16 17 17 18 19 23 20 21 21 22 23 </p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="meshId1" name="meshId1_name" >
+      <mesh>
+        <source id="meshId1-positions" name="meshId1-positions">
+          <float_array id="meshId1-positions-array" count="72"> -0.984885 0.162597 0.296011 -0.919252 0.162597 0.296011 -0.919252 0.257311 0.296011 -0.984885 0.257311 0.296011 -0.984885 0.257311 0.296011 -0.919252 0.257311 0.296011 -0.919252 0.257311 -0.293258 -0.984885 0.257311 -0.293258 -0.984885 0.257311 -0.293258 -0.919252 0.257311 -0.293258 -0.919252 0.162597 -0.293258 -0.984885 0.162597 -0.293258 -0.984885 0.162597 -0.293258 -0.919252 0.162597 -0.293258 -0.919252 0.162597 0.296011 -0.984885 0.162597 0.296011 -0.919252 0.162597 0.296011 -0.919252 0.162597 -0.293258 -0.919252 0.257311 -0.293258 -0.919252 0.257311 0.296011 -0.984885 0.162597 -0.293258 -0.984885 0.162597 0.296011 -0.984885 0.257311 0.296011 -0.984885 0.257311 -0.293258 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId1-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId1-normals" name="meshId1-normals">
+          <float_array id="meshId1-normals-array" count="72"> 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId1-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId1-tangents" name="meshId1-tangents">
+          <float_array id="meshId1-tangents-array" count="72"> 0.222159 0.97501 0 0.222159 0.975011 0 0.222158 0.975011 0 0.222159 0.975011 0 0.975011 0 0.222158 0.975011 0 0.222158 0.975011 0 0.222158 0.975011 0 0.222158 -0.222159 0.97501 0 -0.222159 0.975011 0 -0.222158 0.975011 0 -0.222158 0.975011 0 -0.975011 0 0.222158 -0.975011 0 0.222158 -0.975011 0 0.222158 -0.975011 0 0.222158 0 0.975011 -0.222158 0 0.975011 -0.222159 0 0.975011 -0.222159 0 0.975011 -0.222158 0 0.97501 0.222159 0 0.975011 0.222159 0 0.97501 0.222159 0 0.975011 0.222159 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId1-tangents-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId1-bitangents" name="meshId1-bitangents">
+          <float_array id="meshId1-bitangents-array" count="72"> -0.97501 0.222159 0 -0.975011 0.222159 0 -0.975011 0.222158 0 -0.975011 0.222159 0 0.222158 0 -0.975011 0.222158 0 -0.975011 0.222158 0 -0.975011 0.222158 0 -0.975011 0.97501 0.222159 0 0.975011 0.222159 0 0.975011 0.222158 0 0.975011 0.222158 0 -0.222158 -0 -0.975011 -0.222158 -0 -0.975011 -0.222158 -0 -0.975011 -0.222158 -0 -0.975011 -0 0.222158 0.975011 -0 0.222159 0.975011 -0 0.222159 0.975011 -0 0.222158 0.975011 0 0.222159 -0.97501 0 0.222159 -0.975011 0 0.222159 -0.97501 0 0.222159 -0.975011 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId1-bitangents-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId1-tex0" name="meshId1-tex0">
+          <float_array id="meshId1-tex0-array" count="48"> 0.503903 0.342532 0.511725 0.308204 0.561263 0.319492 0.553441 0.35382 0.553441 0.35382 0.587769 0.361641 0.517544 0.669846 0.483216 0.662024 0.483216 0.662024 0.475395 0.696352 0.425856 0.685065 0.433678 0.650737 0.433678 0.650737 0.39935 0.642915 0.469575 0.334711 0.503903 0.342532 0.511725 0.308204 0.58195 3.18433e-08 0.631488 0.0112874 0.561263 0.319492 0.433678 0.650737 0.503903 0.342532 0.553441 0.35382 0.483216 0.662024 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId1-tex0-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="meshId1-vertices">
+          <input semantic="POSITION" source="#meshId1-positions" />
+        </vertices>
+        <polylist count="12" material="defaultMaterial">
+          <input offset="0" semantic="VERTEX" source="#meshId1-vertices" />
+          <input offset="0" semantic="NORMAL" source="#meshId1-normals" />
+          <input offset="0" semantic="TANGENT" source="#meshId1-tangents" />
+          <input offset="0" semantic="BINORMAL" source="#meshId1-bitangents" />
+          <input offset="0" semantic="TEXCOORD" source="#meshId1-tex0" set="0" />
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>3 0 1 1 2 3 7 4 5 5 6 7 11 8 9 9 10 11 15 12 13 13 14 15 19 16 17 17 18 19 23 20 21 21 22 23 </p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="meshId2" name="meshId2_name" >
+      <mesh>
+        <source id="meshId2-positions" name="meshId2-positions">
+          <float_array id="meshId2-positions-array" count="72"> 0.917807 0.258697 0.296011 1 0.258697 0.296011 1 0.305519 0.296011 0.917807 0.305519 0.296011 0.917807 0.305519 0.296011 1 0.305519 0.296011 1 0.305519 -0.293258 0.917807 0.305519 -0.293258 0.917807 0.305519 -0.293258 1 0.305519 -0.293258 1 0.258697 -0.293258 0.917807 0.258697 -0.293258 0.917807 0.258697 -0.293258 1 0.258697 -0.293258 1 0.258697 0.296011 0.917807 0.258697 0.296011 1 0.258697 0.296011 1 0.258697 -0.293258 1 0.305519 -0.293258 1 0.305519 0.296011 0.917807 0.258697 -0.293258 0.917807 0.258697 0.296011 0.917807 0.305519 0.296011 0.917807 0.305519 -0.293258 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId2-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId2-normals" name="meshId2-normals">
+          <float_array id="meshId2-normals-array" count="72"> 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId2-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId2-tangents" name="meshId2-tangents">
+          <float_array id="meshId2-tangents-array" count="72"> 0.794421 -0.607368 0 0.794421 -0.607368 0 0.794421 -0.607367 0 0.794421 -0.607368 0 0.794421 0 0.607368 0.794421 0 0.607368 0.794421 0 0.607368 0.794421 0 0.607368 0.794421 0.607368 0 0.794421 0.607367 0 0.794421 0.607367 0 0.794421 0.607368 0 0.794421 0 -0.607368 0.794421 0 -0.607368 0.794421 0 -0.607367 0.794421 0 -0.607367 0 0.794421 -0.607368 0 0.794421 -0.607368 0 0.794421 -0.607368 0 0.794421 -0.607368 0 -0.794421 -0.607368 0 -0.794421 -0.607368 0 -0.794421 -0.607368 0 -0.794421 -0.607368 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId2-tangents-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId2-bitangents" name="meshId2-bitangents">
+          <float_array id="meshId2-bitangents-array" count="72"> 0.607368 0.794421 -0 0.607368 0.794421 -0 0.607367 0.794421 -0 0.607368 0.794421 -0 0.607368 0 -0.794421 0.607368 0 -0.794421 0.607368 0 -0.794421 0.607368 0 -0.794421 0.607368 -0.794421 0 0.607367 -0.794421 0 0.607367 -0.794421 0 0.607368 -0.794421 0 0.607368 0 0.794421 0.607368 0 0.794421 0.607367 0 0.794421 0.607367 0 0.794421 -0 0.607368 0.794421 -0 0.607368 0.794421 -0 0.607368 0.794421 -0 0.607368 0.794421 0 -0.607368 0.794421 0 -0.607368 0.794421 0 -0.607368 0.794421 0 -0.607368 0.794421 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId2-bitangents-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId2-tex0" name="meshId2-tex0">
+          <float_array id="meshId2-tex0-array" count="48"> 0.369114 0.216291 0.397062 0.237659 0.38489 0.25358 0.356941 0.232212 0.356941 0.232212 0.38489 0.25358 0.231698 0.45395 0.20375 0.432582 0.534477 2.6077e-08 0.562425 0.0213676 0.550253 0.0372885 0.522305 0.015921 0.522305 0.015921 0.550253 0.0372885 0.397062 0.237659 0.369114 0.216291 0.397062 0.237659 0.550253 0.0372885 0.566174 0.0494608 0.412983 0.249831 0.522305 0.015921 0.369114 0.216291 0.353193 0.204119 0.506384 0.00374874 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId2-tex0-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="meshId2-vertices">
+          <input semantic="POSITION" source="#meshId2-positions" />
+        </vertices>
+        <polylist count="12" material="defaultMaterial">
+          <input offset="0" semantic="VERTEX" source="#meshId2-vertices" />
+          <input offset="0" semantic="NORMAL" source="#meshId2-normals" />
+          <input offset="0" semantic="TANGENT" source="#meshId2-tangents" />
+          <input offset="0" semantic="BINORMAL" source="#meshId2-bitangents" />
+          <input offset="0" semantic="TEXCOORD" source="#meshId2-tex0" set="0" />
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>3 0 1 1 2 3 7 4 5 5 6 7 11 8 9 9 10 11 15 12 13 13 14 15 19 16 17 17 18 19 23 20 21 21 22 23 </p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="meshId3" name="meshId3_name" >
+      <mesh>
+        <source id="meshId3-positions" name="meshId3-positions">
+          <float_array id="meshId3-positions-array" count="72"> 0.917807 0.162597 0.296011 0.98344 0.162597 0.296011 0.98344 0.257311 0.296011 0.917807 0.257311 0.296011 0.917807 0.257311 0.296011 0.98344 0.257311 0.296011 0.98344 0.257311 -0.293258 0.917807 0.257311 -0.293258 0.917807 0.257311 -0.293258 0.98344 0.257311 -0.293258 0.98344 0.162597 -0.293258 0.917807 0.162597 -0.293258 0.917807 0.162597 -0.293258 0.98344 0.162597 -0.293258 0.98344 0.162597 0.296011 0.917807 0.162597 0.296011 0.98344 0.162597 0.296011 0.98344 0.162597 -0.293258 0.98344 0.257311 -0.293258 0.98344 0.257311 0.296011 0.917807 0.162597 -0.293258 0.917807 0.162597 0.296011 0.917807 0.257311 0.296011 0.917807 0.257311 -0.293258 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId3-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId3-normals" name="meshId3-normals">
+          <float_array id="meshId3-normals-array" count="72"> 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId3-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId3-tangents" name="meshId3-tangents">
+          <float_array id="meshId3-tangents-array" count="72"> -0.251498 -0.967858 0 -0.251497 -0.967858 0 -0.251495 -0.967858 0 -0.251496 -0.967858 0 -0.251496 0 0.967858 -0.251496 0 0.967858 -0.251497 0 0.967858 -0.251497 0 0.967858 -0.251498 0.967858 0 -0.251498 0.967858 0 -0.251498 0.967858 0 -0.251498 0.967858 0 -0.251497 0 -0.967858 -0.251497 0 -0.967858 -0.251497 0 -0.967858 -0.251497 0 -0.967858 0 -0.251496 -0.967858 0 -0.251496 -0.967858 0 -0.251496 -0.967858 0 -0.251496 -0.967858 0 0.251497 -0.967858 0 0.251497 -0.967858 0 0.251497 -0.967858 0 0.251497 -0.967858 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId3-tangents-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId3-bitangents" name="meshId3-bitangents">
+          <float_array id="meshId3-bitangents-array" count="72"> 0.967858 -0.251498 0 0.967858 -0.251497 0 0.967858 -0.251495 0 0.967858 -0.251496 0 0.967858 -0 0.251496 0.967858 -0 0.251496 0.967858 -0 0.251497 0.967858 -0 0.251497 0.967858 0.251498 0 0.967858 0.251498 0 0.967858 0.251498 0 0.967858 0.251498 0 0.967858 0 -0.251497 0.967858 0 -0.251497 0.967858 0 -0.251497 0.967858 0 -0.251497 0 0.967858 -0.251496 0 0.967858 -0.251496 0 0.967858 -0.251496 0 0.967858 -0.251496 -0 -0.967858 -0.251497 -0 -0.967858 -0.251497 -0 -0.967858 -0.251497 -0 -0.967858 -0.251497 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId3-bitangents-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId3-tex0" name="meshId3-tex0">
+          <float_array id="meshId3-tex0-array" count="48"> 0.0637996 0.825172 0.0582098 0.846683 0.0271667 0.838617 0.0327564 0.817105 0.481116 0.933611 0.475527 0.955122 0.28239 0.904936 0.287979 0.883425 0.287979 0.883425 0.28239 0.904936 0.251347 0.89687 0.256936 0.875358 0.256936 0.875358 0.251347 0.89687 0.0582098 0.846683 0.0637996 0.825172 0.0582098 0.846683 0.251347 0.89687 0.24328 0.927913 0.0501433 0.877726 0.256936 0.875358 0.0637996 0.825172 0.0718661 0.794129 0.265003 0.844315 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId3-tex0-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="meshId3-vertices">
+          <input semantic="POSITION" source="#meshId3-positions" />
+        </vertices>
+        <polylist count="12" material="defaultMaterial">
+          <input offset="0" semantic="VERTEX" source="#meshId3-vertices" />
+          <input offset="0" semantic="NORMAL" source="#meshId3-normals" />
+          <input offset="0" semantic="TANGENT" source="#meshId3-tangents" />
+          <input offset="0" semantic="BINORMAL" source="#meshId3-bitangents" />
+          <input offset="0" semantic="TEXCOORD" source="#meshId3-tex0" set="0" />
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>3 0 1 1 2 3 7 4 5 5 6 7 11 8 9 9 10 11 15 12 13 13 14 15 19 16 17 17 18 19 23 20 21 21 22 23 </p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="meshId4" name="meshId4_name" >
+      <mesh>
+        <source id="meshId4-positions" name="meshId4-positions">
+          <float_array id="meshId4-positions-array" count="72"> -0.984681 -0.354281 -0.294301 -0.919048 -0.354281 -0.294301 -0.919048 0.304289 -0.294301 -0.984681 0.304289 -0.294301 -0.984681 0.304289 -0.294301 -0.919048 0.304289 -0.294301 -0.919048 0.304289 -0.359934 -0.984681 0.304289 -0.359934 -0.984681 0.304289 -0.359934 -0.919048 0.304289 -0.359934 -0.919048 -0.354281 -0.359934 -0.984681 -0.354281 -0.359934 -0.984681 -0.354281 -0.359934 -0.919048 -0.354281 -0.359934 -0.919048 -0.354281 -0.294301 -0.984681 -0.354281 -0.294301 -0.919048 -0.354281 -0.294301 -0.919048 -0.354281 -0.359934 -0.919048 0.304289 -0.359934 -0.919048 0.304289 -0.294301 -0.984681 -0.354281 -0.359934 -0.984681 -0.354281 -0.294301 -0.984681 0.304289 -0.294301 -0.984681 0.304289 -0.359934 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId4-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId4-normals" name="meshId4-normals">
+          <float_array id="meshId4-normals-array" count="72"> 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId4-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId4-tangents" name="meshId4-tangents">
+          <float_array id="meshId4-tangents-array" count="72"> -0.659636 0.751585 0 -0.659636 0.751585 0 -0.659636 0.751585 0 -0.659636 0.751586 0 0.751585 0 -0.659636 0.751585 0 -0.659636 0.751585 0 -0.659636 0.751585 0 -0.659636 0.659636 0.751586 0 0.659636 0.751586 0 0.659636 0.751586 0 0.659636 0.751586 0 -0.751585 0 -0.659636 -0.751585 0 -0.659636 -0.751585 0 -0.659636 -0.751585 0 -0.659636 0 0.751586 0.659636 0 0.751586 0.659636 0 0.751586 0.659636 0 0.751586 0.659636 0 0.751585 -0.659636 0 0.751585 -0.659636 0 0.751585 -0.659636 0 0.751585 -0.659636 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId4-tangents-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId4-bitangents" name="meshId4-bitangents">
+          <float_array id="meshId4-bitangents-array" count="72"> -0.751585 -0.659636 0 -0.751585 -0.659636 0 -0.751585 -0.659636 0 -0.751586 -0.659636 0 -0.659636 0 -0.751585 -0.659636 0 -0.751585 -0.659636 0 -0.751585 -0.659636 0 -0.751585 0.751586 -0.659636 0 0.751586 -0.659636 0 0.751586 -0.659636 0 0.751586 -0.659636 0 0.659636 0 -0.751585 0.659636 0 -0.751585 0.659636 0 -0.751585 0.659636 0 -0.751585 0 -0.659636 0.751586 0 -0.659636 0.751586 0 -0.659636 0.751586 0 -0.659636 0.751586 -0 -0.659636 -0.751585 -0 -0.659636 -0.751585 -0 -0.659636 -0.751585 -0 -0.659636 -0.751585 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId4-bitangents-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId4-tex0" name="meshId4-tex0">
+          <float_array id="meshId4-tex0-array" count="48"> 0.615899 0.30297 0.595917 0.280202 0.824377 0.0796913 0.84436 0.10246 0.84436 0.10246 0.867128 0.0824768 0.887111 0.105245 0.864343 0.125228 0.864343 0.125228 0.884326 0.147996 0.655865 0.348507 0.635882 0.325738 0.635882 0.325738 0.613114 0.345721 0.593131 0.322953 0.615899 0.30297 0.595917 0.280202 0.575934 0.257433 0.804394 0.0569229 0.824377 0.0796913 0.635882 0.325738 0.615899 0.30297 0.84436 0.10246 0.864343 0.125228 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId4-tex0-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="meshId4-vertices">
+          <input semantic="POSITION" source="#meshId4-positions" />
+        </vertices>
+        <polylist count="12" material="defaultMaterial">
+          <input offset="0" semantic="VERTEX" source="#meshId4-vertices" />
+          <input offset="0" semantic="NORMAL" source="#meshId4-normals" />
+          <input offset="0" semantic="TANGENT" source="#meshId4-tangents" />
+          <input offset="0" semantic="BINORMAL" source="#meshId4-bitangents" />
+          <input offset="0" semantic="TEXCOORD" source="#meshId4-tex0" set="0" />
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>3 0 1 1 2 3 7 4 5 5 6 7 11 8 9 9 10 11 15 12 13 13 14 15 19 16 17 17 18 19 23 20 21 21 22 23 </p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="meshId5" name="meshId5_name" >
+      <mesh>
+        <source id="meshId5-positions" name="meshId5-positions">
+          <float_array id="meshId5-positions-array" count="72"> -0.984681 -0.354281 0.359873 -0.919048 -0.354281 0.359873 -0.919048 0.304289 0.359873 -0.984681 0.304289 0.359873 -0.984681 0.304289 0.359873 -0.919048 0.304289 0.359873 -0.919048 0.304289 0.29424 -0.984681 0.304289 0.29424 -0.984681 0.304289 0.29424 -0.919048 0.304289 0.29424 -0.919048 -0.354281 0.29424 -0.984681 -0.354281 0.29424 -0.984681 -0.354281 0.29424 -0.919048 -0.354281 0.29424 -0.919048 -0.354281 0.359873 -0.984681 -0.354281 0.359873 -0.919048 -0.354281 0.359873 -0.919048 -0.354281 0.29424 -0.919048 0.304289 0.29424 -0.919048 0.304289 0.359873 -0.984681 -0.354281 0.29424 -0.984681 -0.354281 0.359873 -0.984681 0.304289 0.359873 -0.984681 0.304289 0.29424 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId5-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId5-normals" name="meshId5-normals">
+          <float_array id="meshId5-normals-array" count="72"> 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId5-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId5-tangents" name="meshId5-tangents">
+          <float_array id="meshId5-tangents-array" count="72"> -0.900698 0.434445 0 -0.900698 0.434445 0 -0.900698 0.434446 0 -0.900698 0.434446 0 0.434445 0 -0.900698 0.434446 0 -0.900698 0.434446 0 -0.900698 0.434446 0 -0.900698 0.900698 0.434446 0 0.900698 0.434446 0 0.900698 0.434445 0 0.900698 0.434445 0 -0.434446 0 -0.900698 -0.434446 0 -0.900698 -0.434446 0 -0.900698 -0.434446 0 -0.900698 0 -0.434445 -0.900698 0 -0.434446 -0.900698 0 -0.434446 -0.900698 0 -0.434446 -0.900698 0 0.434446 -0.900698 0 0.434446 -0.900698 0 0.434445 -0.900698 0 0.434446 -0.900698 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId5-tangents-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId5-bitangents" name="meshId5-bitangents">
+          <float_array id="meshId5-bitangents-array" count="72"> -0.434445 -0.900698 0 -0.434445 -0.900698 0 -0.434446 -0.900698 0 -0.434446 -0.900698 0 -0.900698 0 -0.434445 -0.900698 0 -0.434446 -0.900698 0 -0.434446 -0.900698 0 -0.434446 0.434446 -0.900698 0 0.434446 -0.900698 0 0.434445 -0.900698 0 0.434445 -0.900698 0 0.900698 0 -0.434446 0.900698 0 -0.434446 0.900698 0 -0.434446 0.900698 0 -0.434446 0 0.900698 -0.434445 0 0.900698 -0.434446 0 0.900698 -0.434446 0 0.900698 -0.434446 -0 -0.900698 -0.434446 -0 -0.900698 -0.434446 -0 -0.900698 -0.434445 -0 -0.900698 -0.434446 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId5-bitangents-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId5-tex0" name="meshId5-tex0">
+          <float_array id="meshId5-tex0-array" count="48"> 0.315023 0.549082 0.2934 0.538653 0.398052 0.321687 0.419675 0.332117 0.419675 0.332117 0.430104 0.310494 0.451727 0.320924 0.441298 0.342546 0.441298 0.342546 0.46292 0.352976 0.358268 0.569942 0.336646 0.559512 0.336646 0.559512 0.326216 0.581135 0.304593 0.570705 0.315023 0.549082 0.534756 0.0935283 0.556379 0.103958 0.451727 0.320924 0.430104 0.310494 0.336646 0.559512 0.315023 0.549082 0.419675 0.332117 0.441298 0.342546 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId5-tex0-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="meshId5-vertices">
+          <input semantic="POSITION" source="#meshId5-positions" />
+        </vertices>
+        <polylist count="12" material="defaultMaterial">
+          <input offset="0" semantic="VERTEX" source="#meshId5-vertices" />
+          <input offset="0" semantic="NORMAL" source="#meshId5-normals" />
+          <input offset="0" semantic="TANGENT" source="#meshId5-tangents" />
+          <input offset="0" semantic="BINORMAL" source="#meshId5-bitangents" />
+          <input offset="0" semantic="TEXCOORD" source="#meshId5-tex0" set="0" />
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>3 0 1 1 2 3 7 4 5 5 6 7 11 8 9 9 10 11 15 12 13 13 14 15 19 16 17 17 18 19 23 20 21 21 22 23 </p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="meshId6" name="meshId6_name" >
+      <mesh>
+        <source id="meshId6-positions" name="meshId6-positions">
+          <float_array id="meshId6-positions-array" count="72"> 0.913289 -0.354281 -0.294301 0.978922 -0.354281 -0.294301 0.978922 0.304289 -0.294301 0.913289 0.304289 -0.294301 0.913289 0.304289 -0.294301 0.978922 0.304289 -0.294301 0.978922 0.304289 -0.359934 0.913289 0.304289 -0.359934 0.913289 0.304289 -0.359934 0.978922 0.304289 -0.359934 0.978922 -0.354281 -0.359934 0.913289 -0.354281 -0.359934 0.913289 -0.354281 -0.359934 0.978922 -0.354281 -0.359934 0.978922 -0.354281 -0.294301 0.913289 -0.354281 -0.294301 0.978922 -0.354281 -0.294301 0.978922 -0.354281 -0.359934 0.978922 0.304289 -0.359934 0.978922 0.304289 -0.294301 0.913289 -0.354281 -0.359934 0.913289 -0.354281 -0.294301 0.913289 0.304289 -0.294301 0.913289 0.304289 -0.359934 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId6-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId6-normals" name="meshId6-normals">
+          <float_array id="meshId6-normals-array" count="72"> 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId6-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId6-tangents" name="meshId6-tangents">
+          <float_array id="meshId6-tangents-array" count="72"> -0.998607 -0.0527695 0 -0.998607 -0.0527695 0 -0.998607 -0.0527706 0 -0.998607 -0.0527705 0 0.0527711 0 0.998607 0.0527711 0 0.998607 0.0527711 0 0.998607 0.0527711 0 0.998607 0.998607 -0.0527706 0 0.998607 -0.0527706 0 0.998607 -0.0527717 0 0.998607 -0.0527716 0 -0.0527703 0 0.998607 -0.0527703 0 0.998607 -0.0527703 0 0.998607 -0.0527703 0 0.998607 0 -0.0527706 0.998607 0 -0.0527706 0.998607 0 -0.0527717 0.998607 0 -0.0527716 0.998607 0 0.0527695 0.998607 0 0.0527694 0.998607 0 0.0527684 0.998607 0 0.0527685 0.998607 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId6-tangents-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId6-bitangents" name="meshId6-bitangents">
+          <float_array id="meshId6-bitangents-array" count="72"> 0.0527695 -0.998607 0 0.0527695 -0.998607 0 0.0527706 -0.998607 0 0.0527705 -0.998607 0 0.998607 0 -0.0527711 0.998607 0 -0.0527711 0.998607 0 -0.0527711 0.998607 0 -0.0527711 -0.0527706 -0.998607 -0 -0.0527706 -0.998607 -0 -0.0527717 -0.998607 -0 -0.0527716 -0.998607 -0 -0.998607 -0 -0.0527703 -0.998607 -0 -0.0527703 -0.998607 -0 -0.0527703 -0.998607 -0 -0.0527703 0 -0.998607 -0.0527706 0 -0.998607 -0.0527706 0 -0.998607 -0.0527717 0 -0.998607 -0.0527716 0 0.998607 -0.0527695 0 0.998607 -0.0527694 0 0.998607 -0.0527684 0 0.998607 -0.0527685 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId6-bitangents-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId6-tex0" name="meshId6-tex0">
+          <float_array id="meshId6-tex0-array" count="48"> 0.958079 0.225348 0.937557 0.226433 0.926676 0.020521 0.947197 0.0194366 0.925592 -1.04308e-07 0.926676 0.020521 0.906155 0.0216054 0.905071 0.00108433 0.885634 0.0226899 0.906155 0.0216054 0.917036 0.227517 0.896515 0.228602 0.918121 0.248038 0.917036 0.227517 0.937557 0.226433 0.938642 0.246954 0.937557 0.226433 0.917036 0.227517 0.906155 0.0216054 0.926676 0.020521 0.918121 0.248038 0.938642 0.246954 0.949523 0.452865 0.929002 0.45395 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId6-tex0-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="meshId6-vertices">
+          <input semantic="POSITION" source="#meshId6-positions" />
+        </vertices>
+        <polylist count="12" material="defaultMaterial">
+          <input offset="0" semantic="VERTEX" source="#meshId6-vertices" />
+          <input offset="0" semantic="NORMAL" source="#meshId6-normals" />
+          <input offset="0" semantic="TANGENT" source="#meshId6-tangents" />
+          <input offset="0" semantic="BINORMAL" source="#meshId6-bitangents" />
+          <input offset="0" semantic="TEXCOORD" source="#meshId6-tex0" set="0" />
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>3 0 1 1 2 3 7 4 5 5 6 7 11 8 9 9 10 11 15 12 13 13 14 15 19 16 17 17 18 19 23 20 21 21 22 23 </p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="meshId7" name="meshId7_name" >
+      <mesh>
+        <source id="meshId7-positions" name="meshId7-positions">
+          <float_array id="meshId7-positions-array" count="72"> 0.913289 -0.354281 0.359873 0.978922 -0.354281 0.359873 0.978922 0.304289 0.359873 0.913289 0.304289 0.359873 0.913289 0.304289 0.359873 0.978922 0.304289 0.359873 0.978922 0.304289 0.29424 0.913289 0.304289 0.29424 0.913289 0.304289 0.29424 0.978922 0.304289 0.29424 0.978922 -0.354281 0.29424 0.913289 -0.354281 0.29424 0.913289 -0.354281 0.29424 0.978922 -0.354281 0.29424 0.978922 -0.354281 0.359873 0.913289 -0.354281 0.359873 0.978922 -0.354281 0.359873 0.978922 -0.354281 0.29424 0.978922 0.304289 0.29424 0.978922 0.304289 0.359873 0.913289 -0.354281 0.29424 0.913289 -0.354281 0.359873 0.913289 0.304289 0.359873 0.913289 0.304289 0.29424 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId7-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId7-normals" name="meshId7-normals">
+          <float_array id="meshId7-normals-array" count="72"> 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId7-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId7-tangents" name="meshId7-tangents">
+          <float_array id="meshId7-tangents-array" count="72"> -0.247866 -0.968794 0 -0.247866 -0.968794 0 -0.247866 -0.968794 0 -0.247866 -0.968794 0 0.968795 0 0.247864 0.968795 0 0.247865 0.968794 0 0.247866 0.968795 0 0.247865 0.247866 -0.968794 0 0.247866 -0.968794 0 0.247866 -0.968794 0 0.247866 -0.968794 0 -0.968795 0 0.247864 -0.968795 0 0.247864 -0.968795 0 0.247864 -0.968795 0 0.247864 0 -0.968794 0.247866 0 -0.968794 0.247866 0 -0.968794 0.247866 0 -0.968794 0.247866 0 0.968794 0.247866 0 0.968794 0.247866 0 0.968794 0.247867 0 0.968794 0.247867 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId7-tangents-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId7-bitangents" name="meshId7-bitangents">
+          <float_array id="meshId7-bitangents-array" count="72"> 0.968794 -0.247866 0 0.968794 -0.247866 0 0.968794 -0.247866 0 0.968794 -0.247866 0 0.247864 0 -0.968795 0.247865 0 -0.968795 0.247866 0 -0.968794 0.247865 0 -0.968795 -0.968794 -0.247866 -0 -0.968794 -0.247866 -0 -0.968794 -0.247866 -0 -0.968794 -0.247866 -0 -0.247864 -0 -0.968795 -0.247864 -0 -0.968795 -0.247864 -0 -0.968795 -0.247864 -0 -0.968795 0 -0.247866 -0.968794 0 -0.247866 -0.968794 0 -0.247866 -0.968794 0 -0.247866 -0.968794 0 0.247866 -0.968794 0 0.247866 -0.968794 0 0.247867 -0.968794 0 0.247867 -0.968794 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId7-bitangents-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId7-tex0" name="meshId7-tex0">
+          <float_array id="meshId7-tex0-array" count="48"> 0.763208 0.546567 0.758065 0.566672 0.556338 0.51506 0.561481 0.494956 0.979896 0.623427 1 0.628571 0.994856 0.648675 0.974752 0.643531 0.54605 0.555268 0.551194 0.535164 0.752921 0.586776 0.747777 0.60688 0.773025 0.591919 0.752921 0.586776 0.758065 0.566672 0.778169 0.571815 0.758065 0.566672 0.752921 0.586776 0.551194 0.535164 0.556338 0.51506 0.773025 0.591919 0.778169 0.571815 0.979896 0.623427 0.974752 0.643531 </float_array>
+          <technique_common>
+            <accessor count="24" offset="0" source="#meshId7-tex0-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="meshId7-vertices">
+          <input semantic="POSITION" source="#meshId7-positions" />
+        </vertices>
+        <polylist count="12" material="defaultMaterial">
+          <input offset="0" semantic="VERTEX" source="#meshId7-vertices" />
+          <input offset="0" semantic="NORMAL" source="#meshId7-normals" />
+          <input offset="0" semantic="TANGENT" source="#meshId7-tangents" />
+          <input offset="0" semantic="BINORMAL" source="#meshId7-bitangents" />
+          <input offset="0" semantic="TEXCOORD" source="#meshId7-tex0" set="0" />
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>3 0 1 1 2 3 7 4 5 5 6 7 11 8 9 9 10 11 15 12 13 13 14 15 19 16 17 17 18 19 23 20 21 21 22 23 </p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="meshId8" name="meshId8_name" >
+      <mesh>
+        <source id="meshId8-positions" name="meshId8-positions">
+          <float_array id="meshId8-positions-array" count="144"> -0.920142 0.267723 0.29621 0.913349 0.267723 0.29621 0.913349 0.304289 0.29621 -0.920142 0.304289 0.29621 -0.98986 0.354281 0.360031 0.983067 0.354281 0.360031 0.983067 0.354281 -0.360031 -0.98986 0.354281 -0.360031 -0.920142 0.304289 -0.29621 0.913349 0.304289 -0.29621 0.913349 0.267723 -0.29621 -0.920142 0.267723 -0.29621 -0.920142 0.267723 -0.29621 0.913349 0.267723 -0.29621 0.913349 0.267723 0.29621 -0.920142 0.267723 0.29621 0.913349 0.267723 0.29621 0.913349 0.267723 -0.29621 0.913349 0.304289 -0.29621 0.913349 0.304289 0.29621 -0.920142 0.267723 -0.29621 -0.920142 0.267723 0.29621 -0.920142 0.304289 0.29621 -0.920142 0.304289 -0.29621 -0.98986 0.304289 0.360031 0.983067 0.304289 0.360031 0.983067 0.354281 0.360031 -0.98986 0.354281 0.360031 -0.98986 0.304289 -0.360031 -0.98986 0.304289 0.360031 -0.98986 0.354281 0.360031 -0.98986 0.354281 -0.360031 -0.98986 0.354281 -0.360031 0.983067 0.354281 -0.360031 0.983067 0.304289 -0.360031 -0.98986 0.304289 -0.360031 0.983067 0.304289 0.360031 0.983067 0.304289 -0.360031 0.983067 0.354281 -0.360031 0.983067 0.354281 0.360031 0.983067 0.304289 0.360031 -0.98986 0.304289 0.360031 -0.920142 0.304289 0.29621 0.913349 0.304289 0.29621 -0.98986 0.304289 -0.360031 0.983067 0.304289 -0.360031 0.913349 0.304289 -0.29621 -0.920142 0.304289 -0.29621 </float_array>
+          <technique_common>
+            <accessor count="48" offset="0" source="#meshId8-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId8-normals" name="meshId8-normals">
+          <float_array id="meshId8-normals-array" count="144"> 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 -2.05892e-07 0 -1 -2.05892e-07 0 -1 -2.05892e-07 0 -1 -2.05892e-07 0 -1 2.05892e-07 0 -1 2.05892e-07 0 -1 2.05892e-07 0 -1 2.05892e-07 </float_array>
+          <technique_common>
+            <accessor count="48" offset="0" source="#meshId8-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId8-tangents" name="meshId8-tangents">
+          <float_array id="meshId8-tangents-array" count="144"> 0.718568 -0.695457 0 0.899459 -0.437006 0 0.901202 -0.4334 0 0.721348 -0.692573 0 0.984216 0 0.176971 0.984216 0 0.176971 0.984216 0 0.176971 0.984216 0 0.176971 0.90119 0.433424 0 0.720758 0.693187 0 0.717968 0.696076 0 0.899442 0.437039 0 0.894564 0 -0.446939 0.894564 0 -0.44694 0.894563 0 -0.446941 0.894564 0 -0.446939 0 0.685703 -0.727881 0 0.920771 0.390103 0 0.905153 0.425086 0 0.71308 -0.701082 0 -0.685718 -0.727867 0 -0.920526 0.390682 0 -0.904882 0.425663 0 -0.713101 -0.701062 0.984216 -0.176971 0 0.984216 -0.176971 0 0.984216 -0.176971 0 0.984216 -0.176971 0 0 0.984217 0.176967 0 0.984217 0.176967 0 0.984217 0.176967 0 0.984217 0.176967 0.984216 0.176971 0 0.984216 0.176971 0 0.984216 0.176971 0 0.984216 0.176971 0 0 -0.984217 0.176967 0 -0.984216 0.176973 0 -0.984216 0.176973 0 -0.984217 0.176968 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 </float_array>
+          <technique_common>
+            <accessor count="48" offset="0" source="#meshId8-tangents-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId8-bitangents" name="meshId8-bitangents">
+          <float_array id="meshId8-bitangents-array" count="144"> 0.695457 0.718568 -0 0.437006 0.899459 -0 0.4334 0.901202 -0 0.692573 0.721348 -0 0.176971 0 -0.984216 0.176971 0 -0.984216 0.176971 0 -0.984216 0.176971 0 -0.984216 0.433424 -0.90119 0 0.693187 -0.720758 0 0.696076 -0.717968 0 0.437039 -0.899442 0 0.446939 0 0.894564 0.44694 0 0.894564 0.446941 0 0.894563 0.446939 0 0.894564 -0 0.727881 0.685703 0 -0.390103 0.920771 0 -0.425086 0.905153 -0 0.701082 0.71308 0 -0.727867 0.685718 0 0.390682 0.920526 0 0.425663 0.904882 0 -0.701062 0.713101 0.176971 0.984216 -0 0.176971 0.984216 -0 0.176971 0.984216 -0 0.176971 0.984216 -0 0 0.176967 -0.984217 0 0.176967 -0.984217 0 0.176967 -0.984217 0 0.176967 -0.984217 0.176971 -0.984216 0 0.176971 -0.984216 0 0.176971 -0.984216 0 0.176971 -0.984216 0 0 -0.176967 -0.984217 0 -0.176973 -0.984216 0 -0.176973 -0.984216 0 -0.176968 -0.984217 -0 2.05892e-07 -1 -0 2.05892e-07 -1 -0 2.05892e-07 -1 -0 2.05892e-07 -1 0 -2.05892e-07 -1 0 -2.05892e-07 -1 0 -2.05892e-07 -1 0 -2.05892e-07 -1 </float_array>
+          <technique_common>
+            <accessor count="48" offset="0" source="#meshId8-bitangents-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="meshId8-tex0" name="meshId8-tex0">
+          <float_array id="meshId8-tex0-array" count="96"> 0.519607 0.677433 0.831056 0.834274 0.832468 0.84092 0.513611 0.680664 0.164674 0.651599 0.571329 0.72472 0.544642 0.873137 0.137988 0.800016 0.569503 0.569354 0.888365 0.729616 0.882364 0.732843 0.570916 0.575999 0.570916 0.575999 0.882364 0.732843 0.831056 0.834274 0.519607 0.677433 0.831056 0.834274 0.882364 0.732843 0.888365 0.729616 0.832468 0.84092 0.570916 0.575999 0.519607 0.677433 0.513611 0.680664 0.569503 0.569354 0.166527 0.641295 0.573182 0.714415 0.571329 0.72472 0.164674 0.651599 0.127683 0.798164 0.15437 0.649747 0.164674 0.651599 0.137988 0.800016 0.137988 0.800016 0.544642 0.873137 0.542789 0.883441 0.136135 0.810321 0.581633 0.726572 0.554946 0.87499 0.544642 0.873137 0.571329 0.72472 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </float_array>
+          <technique_common>
+            <accessor count="48" offset="0" source="#meshId8-tex0-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="meshId8-vertices">
+          <input semantic="POSITION" source="#meshId8-positions" />
+        </vertices>
+        <polylist count="28" material="defaultMaterial">
+          <input offset="0" semantic="VERTEX" source="#meshId8-vertices" />
+          <input offset="0" semantic="NORMAL" source="#meshId8-normals" />
+          <input offset="0" semantic="TANGENT" source="#meshId8-tangents" />
+          <input offset="0" semantic="BINORMAL" source="#meshId8-bitangents" />
+          <input offset="0" semantic="TEXCOORD" source="#meshId8-tex0" set="0" />
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>3 0 1 1 2 3 7 4 5 5 6 7 11 8 9 9 10 11 15 12 13 13 14 15 19 16 17 17 18 19 23 20 21 21 22 23 27 24 25 25 26 27 31 28 29 29 30 31 35 32 33 33 34 35 39 36 37 37 38 39 43 40 41 41 42 43 47 44 45 45 46 47 46 45 40 40 43 46 42 41 44 44 47 42 </p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="root" name="root">
+      <node id="pCube8" name="pCube8">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#meshId0">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="defaultMaterial" target="#lambert1" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="pCube9" name="pCube9">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#meshId1">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="defaultMaterial" target="#lambert1" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="pCube7" name="pCube7">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#meshId2">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="defaultMaterial" target="#lambert1" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="pCube6" name="pCube6">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#meshId3">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="defaultMaterial" target="#lambert1" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="pCube4" name="pCube4">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#meshId4">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="defaultMaterial" target="#lambert1" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="pCube5" name="pCube5">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#meshId5">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="defaultMaterial" target="#lambert1" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="pCube2" name="pCube2">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#meshId6">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="defaultMaterial" target="#lambert1" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="pCube3" name="pCube3">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#meshId7">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="defaultMaterial" target="#lambert1" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="pCube1" name="pCube1">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#meshId8">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="defaultMaterial" target="#lambert1" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#root" />
+  </scene>
+</COLLADA>
